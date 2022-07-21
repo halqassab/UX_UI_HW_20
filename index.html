@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UX/UI Homework 20</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" href="#">Overview</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Research & Definition</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Prototyping & Testing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    </li>
+  </ul>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Tech Fleet Mobile App</h1>
+      <p class="lead">Developing a mobile app that enhances members’ ability to learn about and use Tech Fleet’s apprenticeships and resources.</p>
+    </div>
+  </div>
+  
+<body>
+<h1>Research Insights: User Survey and Interviews</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Information Overload
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                Our interviews gave us a better understanding of some of the main pain points members experienced while using Slack.
+                The first was the overwhelm caused by information overload and the number of incoming notifications or posts, and so members were concerned about important information getting lost in different channels across Slack. 
+                Members felt overwhelmed with notifications across several Slack channels.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Need for Centralization
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                There was also a need for a central location for links, information, and other resources. For instance, newer members who first joined would have liked to have access to past projects to learn more about the organization prior to applying for apprenticeships.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Need for Transparency
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                Our user interviews also brought our awareness to the need for a more transparent apprentice application process. Many members felt that there is some uncertainty after an application is submitted in terms of what’s next, as well as uncertainty in the apprentice selection process.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h1>Definition</h1>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Problem Statement</h1>
+          <p class="lead">The goal of our app is to enhance the organization of Tech Fleet opportunities.
+            We have observed that members are eager to participate in all that Tech Fleet has to offer.
+            How might we best organize the information to make it easy for members to navigate and participate in different activities?
+            </p>
+        </div>
+      </div>
+
+      <h1>Prototyping & Testing</h1>
+      <ul class="list-unstyled">
+        <li class="media">
+          <img src="images/wireframe.png" class="mr-3i" alt="Wireframe">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Initial Wireframes</h5>
+           <p class="description1"> Our first round of user tests confirmed that we were on the right track with creating a centralized homepage.
+            They also liked being able to see the status of all apprenticeship applications, having more detail around their notifications, and being able to access prior project materials in order to get up to speed.</p>
+
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="images/iteration1.0.png" class="mr-3" alt="Iteration 1.0">
+          <img src="images/iteration2.0.png" class="mr-3" alt="Iteration 2.0">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Homepage Iterations</h5>
+            <p class="description2">However, as we moved from low to high fidelity, we realized that we needed to focus a bit more attention on refining the homepage.
+            At first, we tried to include all of the key activities on the homepage, as you can see in version 1.0. However, after gathering feedback from members and our design advisors, we realized that we needed to make a few changes in order to enhance the experience, including:
+                Clarifying the hierarchy of tasks, with apprenticeships being the most important since this is the hub of the Tech Fleet experience;
+                Providing additional navigation through a hamburger;
+                Streamlined the nav bar; and,
+                Overall, simplifying the look and feel.</p>
+
+          </div>
+        </li>
+        <li class="media">
+          <img src="images/finalDesign1.png" class="mr-3" alt="Final Design 1">
+          <img src="images/finalDesign2.png" height="600" class="mr-3" alt="Final Design 2">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Final Design</h5>
+            <p class="description3">In our final design, the main features we focused on apart from the homepage, included the Apprenticeships section of the app, Notifications, and the Project Archives. During testing, we found out that these features were among the most important for Tech Fleet members. We had several iterations of each feature before finally settled on the designs pictured on the left. We considered what would be most intuitive and least overwhelming for users.</p>
+          </div>
+        </li>
+      </ul>
+
+        </div>
+      </div>
+      
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
